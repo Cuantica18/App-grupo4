@@ -38,17 +38,17 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(p0: View) {
         when (p0.id) {
-            // R.id.btnpregunta1 -> irPregunta1()
-            // R.id.btnpregunta2 -> irPregunta2()
+            R.id.btnpregunta1 -> irPregunta1()
+            R.id.btnpregunta2 -> irPregunta2()
             R.id.btnpregunta3 -> irPregunta3()
-            // R.id.btnpregunta4 -> irPregunta4()
+            R.id.btnpregunta4 -> irPregunta4()
             R.id.btnpregunta5 -> irPregunta5()
             R.id.btnpregunta6 -> irPregunta6()
-            // R.id.btnpregunta7 -> irPregunta7()
+            R.id.btnpregunta7 -> irPregunta7()
         }
     }
 
-    /*
+
     fun irPregunta1() {
         startActivity(Intent(this, Pregunta1Activity::class.java))
     }
@@ -56,17 +56,16 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     fun irPregunta2() {
         startActivity(Intent(this, Pregunta2Activity::class.java))
     }
-    */
 
     fun irPregunta3() {
         startActivity(Intent(this, Pregunta3Activity::class.java))
     }
 
-    /*
+
     fun irPregunta4() {
         startActivity(Intent(this, Pregunta4Activity::class.java))
     }
-    */
+
 
     fun irPregunta5() {
         startActivity(Intent(this, Pregunta5Activity::class.java))
@@ -76,9 +75,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         startActivity(Intent(this, Pregunta6Activity::class.java))
     }
 
-    /*
+
     fun irPregunta7() {
         startActivity(Intent(this, Pregunta7Activity::class.java))
     }
-    */
+
 }

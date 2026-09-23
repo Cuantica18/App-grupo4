@@ -25,25 +25,29 @@
             android:name=".Pregunta1Activity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
-
         <activity
             android:name=".Pregunta5Activity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize" />
-
         <activity
             android:name=".Pregunta6Activity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize" />
-
         <activity
             android:name=".Pregunta3Activity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
-
         <activity
             android:name=".Pregunta7Activity"
             android:exported="true" />
-
+        <activity
+            android:name=".Pregunta2Activity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Pregunta4Activity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
+
 </manifest>
