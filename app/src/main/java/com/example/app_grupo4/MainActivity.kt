@@ -48,7 +48,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
-
     fun irPregunta1() {
         startActivity(Intent(this, Pregunta1Activity::class.java))
     }
@@ -61,11 +60,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         startActivity(Intent(this, Pregunta3Activity::class.java))
     }
 
-
     fun irPregunta4() {
         startActivity(Intent(this, Pregunta4Activity::class.java))
     }
-
 
     fun irPregunta5() {
         startActivity(Intent(this, Pregunta5Activity::class.java))
