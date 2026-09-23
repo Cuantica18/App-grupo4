@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">App-grupo4</string>
+    <string name="textConsumo">Ingrese consumo en m³</string>
+    <string name="titulo">Consumo de agua potable</string>
+    <string name="textcalcular">Calcular</string>
+    <string name="resultado">Resultado</string>
 </resources>
